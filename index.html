@@ -8,28 +8,57 @@
     <title>Alok Singh</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
+
+
+
+
+
+    <section id="projects">
+        <h2>Some Things I've Worked On</h2>
+        <article>
+            <div class="text">
+                <h4>Latest Project</h4>
+                <h3>Spotify Clone</h3>
+                <p class="box">
+                    A fullstack Spotify web app clone, You can cycle through playlists, Go to the profile page to see
+                    how many playlist u have in ur profile, You can click on playlist play button to listen to the
+                    songs, You can also click on individual Songs to play them, You can control the playback thorugh the
+                    controls below.
+                </p>
+                <ul>
+                    <li>Typescript</li>
+                    <li>Nextjs</li>
+                    <li>Vercel</li>
+                    <li>Prisma</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            </div>
+            <img src="/assets/Emoji_flicker.png" alt="Screenshot of App" height="25vh" />
+        </article>
+    </section>
     <h1>
         Contact
     </h1>
 
-    <div class="container d-flex">
+    <div class="container d-flex align-items-center">
         <div class="svg-box">
-
+            <img class="svg-contact" src="/assets/contact.png" alt="">
         </div>
         <div class="form-box">
-            <h1>
+            <h1 class="text-light py-3">
                 Got something for me
             </h1>
-            <form action="">
-                <input type="text" class="form-control" placeholder="Your Name">
-                <input type="email" class="form-control" placeholder="Your Email">
-                <input type="text" class="form-control" placeholder="Your Message">
-                <button type="submit btn btn-light"></button>
+            <form action="" class="contact-form">
+                <input type="text" class="form-control my-3" placeholder="Your Name">
+                <input type="email" class="form-control my-3" placeholder="Your Email">
+                <textarea type="text" class="form-control my-3" placeholder="Your Message" rows="4"></textarea>
+                <button type="submit" class=" btn btn-light my-3">Submit</button>
             </form>
         </div>
     </div>
