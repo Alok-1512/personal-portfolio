@@ -117,3 +117,8 @@ body {
     font-style: italic;
 
 }
+
+.skill-box {
+    width: 22.5vw;
+    height: 15vh;
+}
