@@ -101,8 +101,6 @@ body {
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     font-family: 'Lato', sans-serif;
-    background-size: 400% 400%;
-    -webkit-animation: 3s ease infinite;
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -117,13 +115,19 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-style: italic;
-    padding: 2vw 8vw;
+    padding: 2vw 4vw;
 
 }
 
 .skill-box {
-    width: 22.5vw;
-    height: 15vh;
+    width: 238px;
+    height: 70px;
+
+
+}
+
+.box-wrap {
+    padding: 24px;
 }
 
 .about-text {
@@ -131,7 +135,8 @@ body {
 }
 
 .contact-page {
-    height: 100vh;
+    height: 90vh;
+    width: 80vw;
 }
 
 .svg-box {
@@ -145,3 +150,39 @@ body {
 nav {
     height: 10vh;
 }
+
+.intro-button,
+.contact-btn {
+    background: #618e96;
+    border-color: #618e96;
+}
+
+.intro-button:hover {
+    color: azure;
+}
+
+.intro-img {
+    padding-top: 8vh;
+    padding-left: 8vh;
+}
+
+.skills-page {
+    width: 80vw;
+}
+
+.skill-title {
+    padding-left: 5vw;
+    color: azure;
+}
+
+.about-page {
+    height: 90vh;
+}
+
+footer {
+    background: whitesmoke;
+    backdrop-filter: blur(15px);
+    color: black;
+    height: 5vh;
+    opacity: 0.2;
+    ;
