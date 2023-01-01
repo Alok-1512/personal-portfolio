@@ -242,13 +242,13 @@
                 <img class="svg-contact" src="/assets/contact.png" alt="">
             </div>
             <div class="form-box">
-                <h1 class="text-light py-3">
-                    Got something for me
+                <h1 class="text-light py-3 form-title">
+                    Got something for me !
                 </h1>
-                <form action="" class="contact-form">
-                    <input type="text" class="form-control my-3" placeholder="Your Name" required>
-                    <input type="email" class="form-control my-3" placeholder="Your Email" required>
-                    <textarea type="text" class="form-control my-3" placeholder="Your Message" rows="4" required></textarea>
+                <form action="" class="contact-form" onsubmit="sendEmail(); reset(); return false;">
+                    <input id="name" type="text" class="form-control my-3" placeholder="Your Name" required>
+                    <input id="email" type="email" class="form-control my-3" placeholder="Your Email" required>
+                    <textarea id="message" type="text" class="form-control my-3" placeholder="Your Message" rows="4" required></textarea>
                     <button type="submit" class=" btn btn-light my-3  contact-btn">Submit</button>
                 </form>
             </div>
@@ -261,8 +261,8 @@
 
     <footer class="d-flex align-items-center justify-content-center gap-4 mt-1">
        <a href="https://github.com/Alok-1512"> <i class="fa-brands fa-github fa-xl  text-dark"></i> </a>
-       <a href=""> <i class="fa-brands fa-twitter fa-xl  text-dark"></i> </a>
        <a href="https://www.linkedin.com/in/aloksingh1512/"> <i class="fa-brands fa-linkedin fa-xl  text-dark"></i> </a>
+       <a href=""> <i class="fa-brands fa-twitter fa-xl  text-dark"></i> </a>
        <a href=""> <i class="fa-brands fa-instagram fa-xl text-dark "></i> </a>
         
     </footer>
@@ -280,6 +280,7 @@
 
 
 <script src=" https://smtpjs.com/v3/smtp.js"></script>
+<script src="./app.js"></script>
 </body>
 
 </html>

@@ -112,11 +112,15 @@ body {
 }
 
 .contact-title {
+    
+    padding: 2vw 4vw;
+
+}
+
+.form-title {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-style: italic;
-    padding: 2vw 4vw;
-
 }
 
 .skill-box {
