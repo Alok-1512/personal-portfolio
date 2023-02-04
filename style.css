@@ -2,10 +2,63 @@
 
 body {
     background: #10101a;
+    max-width: 100vw;
+    
+}
+ /* Intro Page  */
+.intro-page {
+    height: 90vh;
+}
+
+.name-style {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    font-family: 'Lato', sans-serif;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-button,
+.contact-btn {
+    background: #618e96;
+    border-color: #618e96;
+}
+
+.intro-button:hover {
+    color: azure;
+}
+
+.intro-img {
+    padding-top: 8vh;
+    padding-left: 8vh;
+    
+}
+.intro-svg {
+    height: 390px;
+}
+
+/* Skills Page  */
+
+.skills-page {
+    width: 80vw;
+}
+
+.skill-title {
+
+    color: azure;
+}
+.skill-box {
+    width: 238px;
+    height: 70px;
+}
+
+.skills-page {
+    height: 100vh;
 }
 
 .svg-contact {
-    height: 75vh;
+    height: 450px;
 }
 
 .contact-form {
@@ -93,18 +146,9 @@ body {
     }
 }
 
-.intro-page {
-    height: 90vh;
-}
 
-.name-style {
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    font-family: 'Lato', sans-serif;
 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 .text-box {
     color: #c4c4c4;
@@ -123,14 +167,7 @@ body {
     font-style: italic;
 }
 
-.skill-box {
-    width: 238px;
-    height: 70px;
-}
 
-.skills-page {
-    height: 100vh;
-}
 
 .box-wrap {
     padding: 24px;
@@ -158,28 +195,8 @@ nav {
     height: 10vh;
 }
 
-.intro-button,
-.contact-btn {
-    background: #618e96;
-    border-color: #618e96;
-}
-
-.intro-button:hover {
-    color: azure;
-}
-
-.intro-img {
-    padding-top: 8vh;
-    padding-left: 8vh;
-}
-
-.skills-page {
-    width: 80vw;
-}
-
-.skill-title {
-
-    color: azure;
+section {
+    overflow: hidden;
 }
 
 .about-page {
@@ -193,3 +210,42 @@ footer {
     height: 5vh;
     opacity: 0.7;
 }
+
+@media (max-width: 900px) {
+ #skill-txt {
+    display: none;
+ }
+
+ .intro-page {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+ }
+
+ .contact-form {
+    width: 60vw;
+ }
+  
+.skill-box {
+    width: 180px;
+    height: 39px;
+}
+
+ .svg-contact ,
+ .intro-svg ,
+ .profile-img {
+    display: none;
+ }
+}
+
+
+@media (max-width: 500px) {
+ .skill-box {
+    width: 25vw;
+    height: 3vh;
+ } 
+}
+
+
+
+
