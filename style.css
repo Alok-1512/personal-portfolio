@@ -3,9 +3,10 @@
 body {
     background: #10101a;
     max-width: 100vw;
-    
+
 }
- /* Intro Page  */
+
+/* Intro Page  */
 .intro-page {
     height: 90vh;
 }
@@ -32,8 +33,9 @@ body {
 .intro-img {
     padding-top: 8vh;
     padding-left: 8vh;
-    
+
 }
+
 .intro-svg {
     height: 390px;
 }
@@ -48,6 +50,7 @@ body {
 
     color: azure;
 }
+
 .skill-box {
     width: 238px;
     height: 70px;
@@ -146,6 +149,10 @@ body {
     }
 }
 
+.main-card {
+    text-align: center;
+}
+
 
 
 
@@ -156,7 +163,7 @@ body {
 }
 
 .contact-title {
-    
+
     padding: 2vw 4vw;
 
 }
@@ -204,7 +211,7 @@ section {
 }
 
 footer {
-    background:#6bb3c0;
+    background: #6bb3c0;
     backdrop-filter: blur(15px);
     color: black;
     height: 5vh;
@@ -212,40 +219,36 @@ footer {
 }
 
 @media (max-width: 900px) {
- #skill-txt {
-    display: none;
- }
+    #skill-txt {
+        display: none;
+    }
 
- .intro-page {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
- }
+    .intro-page {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
 
- .contact-form {
-    width: 60vw;
- }
-  
-.skill-box {
-    width: 180px;
-    height: 39px;
-}
+    .contact-form {
+        width: 60vw;
+    }
 
- .svg-contact ,
- .intro-svg ,
- .profile-img {
-    display: none;
- }
+    .skill-box {
+        width: 180px;
+        height: 39px;
+    }
+
+    .svg-contact,
+    .intro-svg,
+    .profile-img {
+        display: none;
+    }
 }
 
 
 @media (max-width: 500px) {
- .skill-box {
-    width: 25vw;
-    height: 3vh;
- } 
+    .skill-box {
+        width: 25vw;
+        height: 3vh;
+    }
 }
-
-
-
-
